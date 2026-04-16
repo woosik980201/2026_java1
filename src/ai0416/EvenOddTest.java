@@ -8,7 +8,7 @@ public class EvenOddTest {
         Scanner s = new Scanner(System.in);
         System.out.print("* 정수를 입력: ");
         int num = s.nextInt();
-        String result = "";
+        String result;
 
         if(num % 2 == 0)
             result = "짝수";
