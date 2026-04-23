@@ -15,12 +15,12 @@ public class Pcroom {
         int age = calendar.get(Calendar.YEAR) - birthyear;
         String result = "";
 
-        if(age >= 20)
+        if (age >= 20)
             result = "가능";
         else
             result = "불가능";
 
-        System.out.printf("당신의 나이는 %d세이므로 오후 10시 이후 PC방 사용이 %s합니다.\n",age,result);
+        System.out.printf("당신의 나이는 %d세이므로 오후 10시 이후 PC방 사용이 %s합니다.\n", age, result);
         System.out.println("협조해 주셔서 감사합니다.");
 
         s.close();
