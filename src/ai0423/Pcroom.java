@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Pcroom {
     public static void main(String[] args) {
-        System.out.println("===== PC방 출입 가능 상태 확인 프로그램 =====");
+        System.out.println("===== PC방 출입 가능 상태 확인 프로그램! =====");
         Scanner s = new Scanner(System.in);
         System.out.print("* 출생년도 입력: ");
         int birthyear = s.nextInt();

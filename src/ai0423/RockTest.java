@@ -3,7 +3,7 @@ import java.util.Random;
 import java.util.Scanner;
 public class RockTest {
     public static void main(String[] args) {
-        System.out.println("====== 가위바위보 게임 ======");
+        System.out.println("====== 가위바위보 게임! ======");
         Scanner s = new Scanner(System.in);
         System.out.print("* 가위, 바위, 보 중에 하나를 입력: ");
         String me = s.nextLine();

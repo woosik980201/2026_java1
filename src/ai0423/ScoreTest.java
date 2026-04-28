@@ -21,7 +21,7 @@ public class ScoreTest {
         else
             result = 'F';
 
-       System.out.println("* 프로그래밍언어실습 과목의 학점은 " + result + "입니다.");
+       System.out.println("* 프로그래밍언어실습 과목의 학점 " + result + "입니다.");
         s.close();
     }
 }

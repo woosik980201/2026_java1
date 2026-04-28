@@ -22,7 +22,7 @@ public class BmiTest {
         double bmi = weight/Math.pow(height/100,2);
 
         if (bmi < 18.5) {
-            result1 = "저";
+            result1 = "저체중";
             result2 = "식단과 운동을 통해 체중을 증량시켜야합니다. 생명에 위험이 있을 수도 있습니다.";
         }else if (bmi < 22.9) {
             result1 = "정상";
