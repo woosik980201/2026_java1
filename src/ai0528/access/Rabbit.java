@@ -23,6 +23,7 @@ public class Rabbit {
       //  this.x = x;
         //this.y = y;
     //}
+
     public void printInfo(){
         System.out.printf("%s모양의 토끼는 (%d,%d)좌표에 있음.\n",shape,x,y);
     }

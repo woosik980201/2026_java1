@@ -28,6 +28,7 @@ public class RunRabbit {
         for(int i=0;i<2;i++){
             rabbit2.moveLeftTen();//10씩 2번 왼쪽 이동
         }
+
         rabbit2.printInfo();
     }
 }

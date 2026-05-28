@@ -54,7 +54,6 @@ public class Rabbit {
     }
 
 
-
     //x축으로 10씩 왼쪽으로 이동하는 메소드
     public void moveLeftTen() {
         xPos -= 10;
